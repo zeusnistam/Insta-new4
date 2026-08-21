@@ -22,7 +22,7 @@ from telegram.ext import (
 )
 
 # --- تنظیمات ---
-BOT_TOKEN = "7691600294:AAFWlMgqf84JfHgA5ST6JwGgRQGcqxffcks"
+BOT_TOKEN = "8380318663:AAG4TPoTiGNbXPiOsfqcGerxPohXM9ZTIEg"
 OWNER_ID = 1601379026
 DB_FILE = "database.json"
 BACKUP_FOLDER = "backups"

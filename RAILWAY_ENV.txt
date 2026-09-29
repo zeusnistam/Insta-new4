@@ -1,3 +1,0 @@
-WEBHOOK_URL=https://insta-new4-production-f694.up.railway.app/webhook
-WEBHOOK_PATH=webhook
-PORT=8080

@@ -684,7 +684,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         now = time.time()
         if now - last_used < COOLDOWN_SECONDS:
             remaining = int(COOLDOWN_SECONDS - (now - last_used))
-            await update.message.reply_text(f"⏳ **صبر کن رفیق!**\nباید {remaining} ثانیه صبر کنی تا لینک بعدی رو بفرستی.\n━━━━━━━━━━━━━━━━━━━━━━\n💡 اگه ادمین باشی محدودیت نداری!", parse_mode="Markdown")
+            await update.message.reply_text(f"⏳ **صبر کن رفیق!**\nباید {remaining} ثانیه صبر کنی تا لینک بعدی رو بفرستی. , parse_mode="Markdown")
             return
         db["cooldown"][uid] = now
         save_db(db)
